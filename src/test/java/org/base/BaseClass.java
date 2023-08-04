@@ -483,13 +483,13 @@ public class BaseClass {
 		driver.switchTo().frame(frameElement);
 	}
 
-	// 60, Switch to the ParenFrame
-	public void switchToParentFrame() {
-		driver.switchTo().parentFrame();
-	}
 
 	// 61, Switch to the defaultFrame
 	public void switchToDefaultFrame() {
 		driver.switchTo().defaultContent();
 	}
+	// 60, Switch to the ParenFrame
+		public void switchToParentFrame() {
+			driver.switchTo().parentFrame();
+		}
 }
