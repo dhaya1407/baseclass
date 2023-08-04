@@ -478,10 +478,7 @@ public class BaseClass {
 		driver.switchTo().frame(nameOrId);
 	}
 
-	// 59, Switch to the frame By WebElement
-	public void switchbyWebElement(WebElement frameElement) {
-		driver.switchTo().frame(frameElement);
-	}
+	
 
 	// 60, Switch to the ParenFrame
 	public void switchToParentFrame() {
@@ -492,4 +489,8 @@ public class BaseClass {
 	public void switchToDefaultFrame() {
 		driver.switchTo().defaultContent();
 	}
+	// 59, Switch to the frame By WebElement
+		public void switchbyWebElement(WebElement frameElement) {
+			driver.switchTo().frame(frameElement);
+		}
 }
